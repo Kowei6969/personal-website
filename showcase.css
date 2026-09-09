@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .showcase-page { background-color: #070b16; color: #f4f0e8; background-image: radial-gradient(rgba(139, 233, 255, .7) 1px, transparent 1px), radial-gradient(rgba(216, 255, 62, .28) 1px, transparent 1px), linear-gradient(135deg, #070b16, #0d1425 52%, #070b16); background-position: 0 0, 13px 17px, 0 0; background-size: 53px 53px, 91px 91px, 100% 100%; }
 .showcase-page .site-header { border-color: rgba(244, 240, 232, .2); }
 .back-link { font: .7rem 'DM Mono', monospace; text-decoration: none; text-transform: uppercase; }
@@ -8,4 +9,16 @@
 .gallery-section { padding: 6rem 8vw 8rem; }.gallery-heading { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(244, 240, 232, .25); }.gallery-heading p:last-child { color: #bdc1b7; font: .65rem 'DM Mono', monospace; text-transform: uppercase; }
 .gallery { display: grid; grid-template-columns: minmax(0, 860px); justify-content: center; padding-top: 1.2rem; }.gallery-item { min-height: 420px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; padding: 1rem; color: #17211f; background: #d8ff3e; }.gallery-item video { width: 100%; min-height: 420px; display: block; object-fit: contain; background: #080b0a; }.video-fallback { padding: 2rem; color: #f4f0e8; font: .75rem 'DM Mono', monospace; text-align: center; }.gallery-item h2 { margin: 2rem 0 .3rem; font-size: 1.6rem; }.gallery-item p { margin: 0; font: .65rem 'DM Mono', monospace; text-transform: uppercase; }
 .showcase-note { display: grid; grid-template-columns: 25% 1fr; gap: 3rem; padding: 7rem 8vw 8rem; border-top: 1px solid rgba(244, 240, 232, .2); background: rgba(7, 11, 22, .55); }.showcase-note h2 { margin: 0; }.showcase-note > p:last-child { grid-column: 2; max-width: 390px; color: #bdc1b7; }
+=======
+.showcase-page { background-color: #101513; color: #f4f0e8; background-image: radial-gradient(rgba(216, 255, 62, .18) 1px, transparent 1px); background-size: 28px 28px; }
+.showcase-page .site-header { border-color: rgba(244, 240, 232, .2); }
+.back-link { font: .7rem 'DM Mono', monospace; text-decoration: none; text-transform: uppercase; }
+.back-link:hover { color: var(--accent); }
+.showcase-page main { max-width: 1240px; }
+.showcase-hero { min-height: 560px; padding: 7rem 8vw 6rem; background: radial-gradient(circle at 78% 42%, rgba(83, 99, 42, .8) 0, rgba(16, 21, 19, .92) 30%); }
+.showcase-hero h1 { margin: 4rem 0 2rem; }.showcase-hero > p:last-child { max-width: 310px; color: #bdc1b7; }
+.gallery-section { padding: 6rem 8vw 8rem; }.gallery-heading { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(244, 240, 232, .25); }.gallery-heading p:last-child { color: #bdc1b7; font: .65rem 'DM Mono', monospace; text-transform: uppercase; }
+.gallery { display: grid; grid-template-columns: minmax(0, 860px); justify-content: center; padding-top: 1.2rem; }.gallery-item { min-height: 420px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; padding: 1rem; color: #17211f; background: #d8ff3e; }.gallery-item video { width: 100%; min-height: 420px; display: block; object-fit: contain; background: #080b0a; }.video-fallback { padding: 2rem; color: #f4f0e8; font: .75rem 'DM Mono', monospace; text-align: center; }.gallery-item h2 { margin: 2rem 0 .3rem; font-size: 1.6rem; }.gallery-item p { margin: 0; font: .65rem 'DM Mono', monospace; text-transform: uppercase; }
+.showcase-note { display: grid; grid-template-columns: 25% 1fr; gap: 3rem; padding: 7rem 8vw 8rem; border-top: 1px solid rgba(244, 240, 232, .2); }.showcase-note h2 { margin: 0; }.showcase-note > p:last-child { grid-column: 2; max-width: 390px; color: #bdc1b7; }
+>>>>>>> 4ecb137de44872c93d26e2f9194edddf25eb0644
 @media (max-width: 700px) { .showcase-page .availability { display: none; }.showcase-hero { min-height: 500px; padding: 5rem 6vw 4rem; }.gallery-section { padding: 5rem 6vw 6rem; }.gallery { grid-template-columns: 1fr; }.gallery-item video { min-height: 240px; }.showcase-note { grid-template-columns: 1fr; gap: 1.5rem; padding: 5rem 6vw; }.showcase-note > p:last-child { grid-column: auto; } }
